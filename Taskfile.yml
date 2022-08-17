@@ -1,0 +1,11 @@
+version: "3"
+
+tasks:
+  build:
+    desc: Build the app
+    cmds:
+    - go build -o ens-cli .
+  run:
+    desc: Run the app
+    cmds:
+      - ./ens_cli
